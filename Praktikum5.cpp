@@ -12,5 +12,13 @@ bool cekPrima(int n){
     if (n <= 1) {
         return false;
     }
-
+    // Cek pembagian dari 2 sampai sqrt(n)
+    int i = 2;
+    while (i * i <= n) {
+        if (n % i == 0) {
+            return false;
+        }
+        i++;
+    }
+    return true;
 }
