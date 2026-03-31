@@ -102,7 +102,25 @@ void tampilkanHasilFibonacci() {
     
     if (cekFibonacci(globalAngka)) {
         cout << "✓ " << globalAngka << " adalah BILANGAN FIBONACCI" << endl;
+
+        // Tampilkan deret Fibonacci sampai angka tersebut
+        cout << "Deret Fibonacci: ";
+        int fib1 = 0, fib2 = 1, fibSelanjutnya = 0;
+        cout << fib1 << " " << fib2 << " ";
         
+        while (fibSelanjutnya < globalAngka) {
+            fibSelanjutnya = fib1 + fib2;
+            if (fibSelanjutnya <= globalAngka) {
+                cout << fibSelanjutnya << " ";
+            }
+            fib1 = fib2;
+            fib2 = fibSelanjutnya;
+        }
+        cout << endl;
+    } else {
+        cout << "✗ " << globalAngka << " BUKAN bilangan Fibonacci" << endl;
+    }
+}
 
 
     
