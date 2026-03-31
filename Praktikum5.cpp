@@ -153,8 +153,14 @@ int main() {
         // Tampilkan menu
         tampilkanMenu();
         cin >> globalPilihan;
-        
+
         // Switch case untuk pilihan menu
         switch (globalPilihan) {
             case 1:
+                // Menu cek prima
+                inputAngka();
+                tampilkanHasilPrima();
+                break;
+                
+            case 2:
     
