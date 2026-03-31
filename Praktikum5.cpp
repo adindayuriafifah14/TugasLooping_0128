@@ -67,6 +67,16 @@ void inputAngka() {
     cout << "Angka yang dimasukkan: " << globalAngka << endl;
 }
 
+// Prosedur untuk menampilkan hasil pengecekan prima
+void tampilkanHasilPrima() {
+    cout << "\n=== HASIL PENGECEKAN BILANGAN PRIMA ===" << endl;
+    cout << "Angka: " << globalAngka << endl;
+    
+    if (cekPrima(globalAngka)) {
+        cout << "✓ " << globalAngka << " adalah BILANGAN PRIMA" << endl;
+    } else {
+        cout << "✗ " << globalAngka << " BUKAN bilangan prima" << endl;
+    }
     
 
 
