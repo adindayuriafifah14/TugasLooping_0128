@@ -95,5 +95,14 @@ void tampilkanHasilPrima() {
     }
 }
 
+// Prosedur untuk menampilkan hasil pengecekan Fibonacci
+void tampilkanHasilFibonacci() {
+    cout << "\n=== HASIL PENGECEKAN BILANGAN FIBONACCI ===" << endl;
+    cout << "Angka: " << globalAngka << endl;
+    
+    if (cekFibonacci(globalAngka)) {
+        cout << "✓ " << globalAngka << " adalah BILANGAN FIBONACCI" << endl;
+        
+
 
     
