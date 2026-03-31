@@ -12,6 +12,7 @@ bool cekPrima(int n){
     if (n <= 1) {
         return false;
     }
+
     // Cek pembagian dari 2 sampai sqrt(n)
     int i = 2;
     while (i * i <= n) {
@@ -22,16 +23,23 @@ bool cekPrima(int n){
     }
     return true;
 }
+
 // Function untuk mengecek bilangan Fibonacci menggunakan while loop
 bool cekFibonacci(int n) {
     if (n < 0) {
         return false;
     }
+
     // Kasus khusus
     if (n == 0 || n == 1) {
         return true;
     }
     
     int fib1 = 0, fib2 = 1, fibSelanjutnya = 0;
-    
+
+    // Generate deret Fibonacci sampai melebihi n
+    while (fibSelanjutnya <= n) {
+        fibSelanjutnya = fib1 + fib2;
+        
+
     
