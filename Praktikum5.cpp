@@ -78,6 +78,22 @@ void tampilkanHasilPrima() {
         cout << "✗ " << globalAngka << " BUKAN bilangan prima" << endl;
     }
     
+    // Tampilkan faktor pembagi jika bukan prima
+    if (!cekPrima(globalAngka) && globalAngka > 1) {
+        cout << "Faktor pembagi: ";
+        int i = 2;
+        while (i * i <= globalAngka) {
+            if (globalAngka % i == 0) {
+                cout << i << " ";
+            }
+            i++;
+        }
+        if (globalAngka > 1) {
+            cout << globalAngka;
+        }
+        cout << endl;
+    }
+}
 
 
     
