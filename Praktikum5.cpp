@@ -163,4 +163,10 @@ int main() {
                 break;
                 
             case 2:
+                // Menu cek Fibonacci
+                inputAngka();
+                tampilkanHasilFibonacci();
+                break;
+                
+            case 0:
     
