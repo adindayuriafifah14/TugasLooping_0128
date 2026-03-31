@@ -147,4 +147,7 @@ int main() {
 
     // Tampilkan informasi program
     tampilkanInfo();
+
+    // Loop utama program
+    while (programBerjalan) {
     
