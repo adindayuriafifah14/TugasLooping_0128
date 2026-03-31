@@ -134,5 +134,14 @@ void tampilkanMenu() {
     cout << "Pilih menu [0-2]: ";
 }
 
+// Prosedur untuk menampilkan informasi program
+void tampilkanInfo() {
+    cout << "\n" << string(60, '*') << endl;
+    cout << "    PROGRAM C++ STRUKTUR PROSEDURAL - BILANGAN PRIMA & FIBONACCI" << endl;
+    cout << "    Fitur: While Loop, Switch Case, Variabel Global" << endl;
+    cout << string(60, '*') << endl;
+}
 
+int main() {
+    bool programBerjalan = true;
     
