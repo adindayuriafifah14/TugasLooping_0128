@@ -150,4 +150,7 @@ int main() {
 
     // Loop utama program
     while (programBerjalan) {
+        // Tampilkan menu
+        tampilkanMenu();
+        cin >> globalPilihan;
     
