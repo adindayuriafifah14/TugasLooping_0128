@@ -40,6 +40,11 @@ bool cekFibonacci(int n) {
     // Generate deret Fibonacci sampai melebihi n
     while (fibSelanjutnya <= n) {
         fibSelanjutnya = fib1 + fib2;
-        
+
+        // Cek apakah n sama dengan fibSelanjutnya
+        if (fibSelanjutnya == n) {
+            return true;
+        }
+
 
     
