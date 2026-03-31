@@ -53,5 +53,11 @@ bool cekFibonacci(int n) {
     return false;
 }
 
+// Prosedur untuk menerima input angka dari pengguna
+void inputAngka() {
+    cout << "\nMasukkan angka yang ingin dicek: ";
+    cin >> globalAngka;
+    
+
 
     
