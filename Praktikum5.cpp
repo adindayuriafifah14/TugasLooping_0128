@@ -180,4 +180,15 @@ int main() {
                 cout << "\n Pilihan tidak valid! Pilih 0, 1, atau 2 saja." << endl;
                 break;
         }
+
+        // Pause sebelum loop berikutnya (kecuali saat keluar)
+        if (programBerjalan) {
+            cout << "\nTekan Enter untuk melanjutkan...";
+            cin.ignore();
+            cin.get();
+        }
+    }
+    
+    return 0;
+}
     
