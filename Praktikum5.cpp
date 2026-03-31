@@ -57,6 +57,16 @@ bool cekFibonacci(int n) {
 void inputAngka() {
     cout << "\nMasukkan angka yang ingin dicek: ";
     cin >> globalAngka;
+
+      // Validasi input
+    while (globalAngka < 0) {
+        cout << "Angka harus >= 0! Masukkan ulang: ";
+        cin >> globalAngka;
+    }
+    
+    cout << "Angka yang dimasukkan: " << globalAngka << endl;
+}
+
     
 
 
