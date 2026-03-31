@@ -8,5 +8,9 @@ int globalPilihan = 0;
 
 //Function untuk mengecek bilangan prima menggunakan while loop
 bool cekPrima(int n){
-    
+    // Bilangan negatif dan 1 bukan prima
+    if (n <= 1) {
+        return false;
+    }
+
 }
