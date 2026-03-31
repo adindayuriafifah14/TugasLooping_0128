@@ -169,4 +169,9 @@ int main() {
                 break;
                 
             case 0:
+                // Keluar program
+                cout << "\nTerima kasih telah menggunakan program!" << endl;
+                cout << "Sampai jumpa!" << endl;
+                programBerjalan = false;
+                break;
     
