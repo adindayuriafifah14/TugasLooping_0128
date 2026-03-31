@@ -27,3 +27,11 @@ bool cekFibonacci(int n) {
     if (n < 0) {
         return false;
     }
+    // Kasus khusus
+    if (n == 0 || n == 1) {
+        return true;
+    }
+    
+    int fib1 = 0, fib2 = 1, fibSelanjutnya = 0;
+    
+    
