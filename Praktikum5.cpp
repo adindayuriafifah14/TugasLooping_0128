@@ -22,3 +22,8 @@ bool cekPrima(int n){
     }
     return true;
 }
+// Function untuk mengecek bilangan Fibonacci menggunakan while loop
+bool cekFibonacci(int n) {
+    if (n < 0) {
+        return false;
+    }
