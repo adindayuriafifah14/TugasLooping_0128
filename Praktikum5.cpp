@@ -144,4 +144,7 @@ void tampilkanInfo() {
 
 int main() {
     bool programBerjalan = true;
+
+    // Tampilkan informasi program
+    tampilkanInfo();
     
