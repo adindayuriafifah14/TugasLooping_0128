@@ -122,5 +122,17 @@ void tampilkanHasilFibonacci() {
     }
 }
 
+// Function untuk menampilkan menu
+void tampilkanMenu() {
+    cout << "\n" << string(50, '=') << endl;
+    cout << "        PROGRAM PENGECEK BILANGAN PRIMA & FIBONACCI" << endl;
+    cout << string(50, '=') << endl;
+    cout << "1. Cek Bilangan Prima" << endl;
+    cout << "2. Cek Bilangan Fibonacci" << endl;
+    cout << "0. Keluar" << endl;
+    cout << string(50, '=') << endl;
+    cout << "Pilih menu [0-2]: ";
+}
+
 
     
