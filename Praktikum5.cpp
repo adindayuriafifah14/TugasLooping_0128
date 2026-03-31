@@ -46,5 +46,12 @@ bool cekFibonacci(int n) {
             return true;
         }
 
+         // Update nilai untuk iterasi berikutnya
+        fib1 = fib2;
+        fib2 = fibSelanjutnya;
+    }
+    return false;
+}
+
 
     
