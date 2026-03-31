@@ -174,4 +174,10 @@ int main() {
                 cout << "Sampai jumpa!" << endl;
                 programBerjalan = false;
                 break;
+
+                default:
+                // Pilihan tidak valid
+                cout << "\n Pilihan tidak valid! Pilih 0, 1, atau 2 saja." << endl;
+                break;
+        }
     
